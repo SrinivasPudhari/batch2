@@ -51,3 +51,52 @@ function fetchUsers(){
     .catch(err=>console.log(err))
 }
 fectch();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let p = new Promise((resolve , reject)=>{
+//     setTimeout(()=>}
+//     },4000);
+// });
+
+
+// async function demo(){
+//     console.log("start");
+//     let x =await p;
+//     console.log(x);
+//     console.log("end");
+//}
+
+// demo();
+
+async function fectchUsers(){
+    let response =await fetch("https://api.github.com/users");
+    let data =await response.json();
+    console.log(data);
+}
+fectchUsers()
+    

@@ -1,1 +1,3 @@
-
+ 
+Take array of obj where each ojbect contain empname, empcompany,empsalary,empaddress wehere emp addrees further contains an object which include empcities and areas
+disply all this empl data on the ui through javascript
